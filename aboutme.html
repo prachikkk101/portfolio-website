@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutMe</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 33);
+            margin-top: 0;
+            margin: 0;
+
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.05rem;
+            color: rgb(122, 122, 225);
+        }
+
+        .left {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+
+        .AboutMe {
+            color: aliceblue;
+            font-size: 36px;
+            text-align: center;
+            font-weight: bold;
+            color: azure;
+            margin-top: 20px;
+            text-decoration: underline;
+
+
+        }
+
+        .content {
+            background-color: #2c2f4a;
+
+            color: aliceblue;
+
+            padding: 30px 40px;
+
+            margin: 80px auto 0 auto;
+
+            max-width: 800px;
+
+            border-radius: 10px;
+
+            line-height: 1.8;
+
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+            box-sizing: border-box;
+
+            transition: box-shadow 0.3s ease;
+        }
+
+        .content:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+
+        .box {
+
+            background-color: #2e2a4a;
+
+            border: 2px solid #423b6d;
+            border-radius: 12px;
+            margin: 60px auto;
+
+            padding: 24px;
+            line-height: 1.8;
+            width: 80%;
+
+            max-width: 800px;
+
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        }
+
+        .box:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+        }
+
+        .box {
+            max-width: 800px;
+            margin: 80px auto;
+            /* centers the section on the page */
+            padding: 20px 30px;
+            background-color: #f8f9fb;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+        }
+
+        .edu {
+            color: rgb(175, 173, 229);
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .heading {
+            font-size: 20px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 6px;
+            text-align: center;
+        }
+
+        .college {
+            font-size: 16px;
+            color: #555;
+            text-align: center;
+        }
+
+        .box:hover {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Prachi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About</a></li>
+                    <li><a href="Service.html">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="contactme.html">Contact Me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <div class="AboutMe">About Me</div>
+
+    <div class="box">
+        <div class="edu">Education</div>
+        <div class="heading">Engineering in Computer Science</div>
+        <div class="college">Vellore Institute of Technology</div>
+    </div>
+    <div class="content">I am currently pursuing my B.Tech at VIT Chennai, with a strong passion for frontend
+        development and UI/UX design.
+        My technical foundation spans across HTML, CSS, JavaScript, C/C++, and Python, enabling me to build responsive,
+        user-centric web applications.
+
+        I actively contribute to projects, collaborating with seniors to gain practical experience and broaden my skill
+        set.
+        I am also deeply interested in Data Structures and Algorithms (DSA), and I enjoy solving problems that challenge
+        my logic and critical thinking.</div>
+
+</body>
+
+</html>
