@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-9">
+    <meta http-equiv="X-UA-Compatible" content="IE = edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <title>PRACHI - Portfolio</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            margin: 0%;
+            padding: 0%;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.05rem;
+            color: rgb(122, 122, 225);
+        }
+
+        .left {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .bigBox {
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            padding-left: 60px;
+            padding-top: 80px;
+            justify-content: center;
+
+        }
+
+        .box {
+            width: 250px;
+            height: 320px;
+            padding: 20px;
+            border: 2px solid rgb(171, 182, 192);
+            border-radius: 16px;
+            background: linear-gradient(145deg, #15153f, #0c0c41);
+            color: white;
+            box-shadow:
+                inset 0 0 10px rgba(23, 11, 69, 0.1),
+                0 8px 16px rgba(41, 14, 71, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Add hover effect */
+        .box:hover {
+            transform: scale(1.05);
+            box-shadow:
+                inset 0 0 12px rgba(255, 255, 255, 0.15),
+                0 12px 24px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+        }
+
+
+        .heading {
+            text-align: center;
+            padding-bottom: 20px;
+            padding-top: 40px;
+            font-size: 36px;
+            text-decoration: underline;
+        }
+
+        .heading2 {
+            text-align: center;
+            font-size: 30px;
+            padding-top: 10px;
+        }
+
+        .img1 {
+            width: 50px;
+            height: auto;
+            border-radius: 10px;
+            filter: brightness(0) invert(1);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+        }
+
+        .h1 {
+            text-align: center;
+            font-size: 40px;
+            color: white;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        .h2 {
+            text-align: center;
+            font-size: 20px;
+            color: rgb(90, 99, 105);
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Prachi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About</a></li>
+                    <li><a href="Service.html">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="contactme.html">Contact Me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <div class="heading">Services</div>
+    <div class="heading2">Transforming ideas into intutive digital experiences</div>
+    <div class="bigBox">
+        <div class="box">
+            <img src="ux-design - Copy.png" class="img1">
+            <div class="h1">UI/UX</div>
+            <div class="h2">Creating intutive and visually sppealing designs that enhance user experience.</div>
+        </div>
+        <div class="box">
+            <img src="web-design.png" class="img1">
+            <div class="h1">UI/UX</div>
+            <div class="h2">Creating intutive and visually sppealing designs that enhance user experience.</div>
+        </div>
+        <div class="box">
+            <img src="web-design.png" class="img1">
+            <div class="h1">UI/UX</div>
+            <div class="h2">Creating intutive and visually sppealing designs that enhance user experience.</div>
+        </div>
+        <div class="box">
+            <img src="web-design.png" class="img1">
+            <div class="h1">UI/UX</div>
+            <div class="h2">Creating intutive and visually sppealing designs that enhance user experience.</div>
+        </div>
+    </div>
+</body>
