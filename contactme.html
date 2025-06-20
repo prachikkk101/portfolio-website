@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: rgb(0, 0, 33);
+      color: rgb(165, 153, 153);
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: rgb(18, 18, 62);
+      width: 100%;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .left {
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .heading {
+      margin-top: 60px;
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+      text-decoration: underline;
+      color: white;
+    }
+
+    .contact-section {
+      max-width: 500px;
+      margin: 40px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .mail-text,
+    .message {
+      width: 100%;
+      padding: 12px 15px;
+      border: 1px solid lavender;
+      border-radius: 6px;
+      font-size: 16px;
+      box-sizing: border-box;
+      transition: border-color 0.3s ease;
+    }
+
+    .mail-text:focus,
+    .message:focus {
+      border-color: lavender;
+      outline: none;
+    }
+
+    .btn {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .btn a {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: rgb(67, 67, 143);
+      color:white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn a:hover {
+      background-color: rgb(28, 28, 66);
+    }
+    .head1{
+      text-align: center;
+      padding-top: 40px;
+      font-size: 30px;
+      color: lavender;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Prachi's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutme.html">About</a></li>
+          <li><a href="Service.html">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="contactme.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="heading">Contact Me</div>
+  <div class = "head1">Let's Create Something Amazing Together....</div>
+
+  <div class="contact-section">
+    <div class="form-group">
+      <input type="text" class="mail-text" placeholder="Your name" name="Your Name">
+    </div>
+    <div class="form-group">
+      <input type="text" class="mail-text" placeholder="Your Email" name="Your Email">
+    </div>
+    <div class="form-group">
+      <input type="text" class="mail-text" placeholder="Your Phone" name="Your Phone">
+    </div>
+    <div class="form-group">
+      <textarea class="message" placeholder="Your message" rows="5" id="comment" name="Your message"></textarea>
+    </div>
+
+    <div class="btn">
+      <a href="#">Send now</a>
+    </div>
+  </div>
+</body>
+
+</html>
