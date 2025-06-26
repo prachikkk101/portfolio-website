@@ -116,14 +116,43 @@
             height: 2px;
             margin: 56px 0;
         }
-        .secondSection .vertical{
+
+        .secondSection .vertical {
             height: 93px;
             width: 1px;
             background-color: white;
             margin: 0 100px;
 
         }
-        
+
+
+
+        .leftSection {
+            font-size: 3rem;
+            margin: 70px 0;
+            text-align: center;
+            /* Ensures text and button are centered */
+        }
+
+        .leftSection p {
+            line-height: 1.5;
+        }
+
+        .resume-btn {
+            margin-top: 30px;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: rgb(137, 137, 225);
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            border-radius: 8px;
+            transition: 0.3s ease;
+        }
+
+        .resume-btn:hover {
+            background-color: rgb(99, 99, 200);
+        }
     </style>
 </head>
 
@@ -150,12 +179,22 @@
                 <div>and I am Web Developer</div>
                 <span id="element"></span>
 
+                <div class="box">
+                    <a href="Resume (2) (1).pdf" class="resume" target="_blank">
+                        <img src="resume-icon.png" alt="Resume" />
+                    </a>
+                </div>
             </div>
             <div class="rightSection">
                 <img src="" alt="" </div>
 
         </section>
     </Main>
+    <!-- Make sure Font Awesome is linked in your <head> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+
     <!-- Setup and start animation! -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
